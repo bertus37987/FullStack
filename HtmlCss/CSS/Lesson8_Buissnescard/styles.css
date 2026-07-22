@@ -4,8 +4,9 @@
 .card {
     width: 500px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0px auto; 
+
+    
 }
 
 .card-body {
@@ -51,4 +52,14 @@
 
 .font-familly {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+
+/*.card-text:hover {
+    background-color: aquamarine;
+} */
+
+.image-description:hover {
+    background-color: #BCBDC0;
+    border-radius: 30px;
 }
