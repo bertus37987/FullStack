@@ -1,0 +1,19 @@
+.pricing {
+    display: flex;
+    
+}
+
+
+.pro-plan {
+    margin: 20px;
+}
+
+
+.enterprise-plan {
+    margin: 20px;
+}
+
+.headline {
+    text-align: center;
+
+}

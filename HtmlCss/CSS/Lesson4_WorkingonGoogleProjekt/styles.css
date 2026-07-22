@@ -1,0 +1,58 @@
+
+
+.main {
+    margin-top: 400px;
+
+}
+
+.google_logo {
+    display: block;
+    width: 300px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.search_bar {
+    display: block;
+    width: 400px;
+    line-height: 24px; /* Dasselbe wie height bei manchen browsern nötig */
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:10px ;
+    padding-bottom:10px ;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 24px;
+    border: solid 1px #dfe1e5; 
+
+
+}
+
+.search-btn{
+    display: block;
+    border: 1px none;
+    border-radius: 4px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #dfe1e5;
+    font-size: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+.google-btns-wrapper {
+    display: flex;
+    justify-content: center;
+
+}
+/* Padding = inside of the element.
+Margin = outside of the element
+border = border between Padding and Margin /*
