@@ -4,20 +4,22 @@
         <link rel="stylesheet" href="styles.css">
     </head>
 
-    <body class="card">
-     
-     <div class="card-body font-familly">
+    <body> <!-- Never tag the body itself, if footers are used it couldt break-->
+     <div class="card">
+        <div class="card-body font-familly">
 
-        <div>
+        <div> <!-- Is wrapped because of flexbox (not an dierect child anymore !)-->
         <img class="profile-pic" src="images/image.jpg" alt="mockup profile picture">
         <p class="image-description"> Willy 1997, Dallas Texas</p>
-        
-      </div>
+       </div>
+
         <div class="card-text">
         <h1> Willy Ebert</h1>
         <h2> Fronted Devloper</h2>
         <h3> Germany/Tübingen</h3>  
-    </div>
+       </div>
+     </div>
+
      </div>
     </body>
 </html>
